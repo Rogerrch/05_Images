@@ -58,19 +58,6 @@ body, h1, h2, h3, h4, h5, h6, dl {
     border-bottom: 3px solid #3b0273;
   }
 
-  .levantLogo {
-      max-width: auto;
-      min-width: 110%;
-      filter: drop-shadow(0.5mm 1mm 0.6mm #3b0273);
-    }
-  
-  figcaption {
-    font-size: 1.25rem;
-    text-align: center;
-    padding-right: 40px;
-    color: #3b0273;
-    filter: drop-shadow(0.2mm 0.6mm 0.2mm #f5e7dc75);
-  }
   /* Nav elements */
   #navbar {
     height: 100%;
@@ -115,6 +102,21 @@ body {
     border-top: 3px solid #64428c;   
 }
 /* Images */
+.levantLogo {
+  font-size: 120%;
+  filter: drop-shadow(0.5mm 1mm 0.6mm #3b0273);
+  text-align: center;
+  color: #3b0273;
+  filter: drop-shadow(0.2mm 0.6mm 0.2mm #f5e7dc75);
+}
+.levantLogo img {
+  width: 100%;
+  filter: drop-shadow(0.5mm 1mm 0.6mm #3b0273);
+}
+.logoCap {
+  font-size: 90%;
+  padding-right: 10%;
+}
 
   
   /* Footer Styling */
@@ -137,14 +139,4 @@ body {
       color: #F5E7DC;
       border-top: solid 3px #aa8abd;
   }
-  .lowLevantLogo {
-  max-width: 300px;
-  padding-top: 20px;
-  }
-  .tagLine {
-      font-size: .80rem;
-    text-align: center;
-    padding-right: 40px;
-    padding-bottom: 20px;
-    color: #3b0273;
-    filter: drop-shadow(0.2mm 0.6mm 0.2mm #f5e7dc75);
+  
