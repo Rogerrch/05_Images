@@ -155,16 +155,51 @@ figure.bedMold img {
 }
 
 .example {
-  width: 25%;
-  max-width: 400px;
-  min-width: 300px;
-  transition: 04s;
+  max-width: 500px;
+  min-width: 200px;
+  transition: ease-in 0.4s;
 }
 
 .example img {
+  display: flex;
+  flex-flow: column;
   width: 100%;
-  border-radius: 30px;
+  border-radius: 30px 30px 0px 0px;
   filter: drop-shadow(0.5mm 1mm 0.6mm #3b027350);
+}
+
+.materialChar {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-size: 130%;
+  font-variant: small-caps;
+  font-weight: bold;
+  text-align: center;
+  bottom: 2rem;
+  height: 20px;
+  padding-bottom: 20px;
+  border-radius: 0px 0px 30px 30px;
+  background-color: #a182ab; 
+  filter: drop-shadow(0.5mm 1mm 0.6mm #3b027350);
+  font-variant: small-caps;
+}
+
+.physChar {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-size: 130%;
+  font-variant: small-caps;
+  font-weight: bold;
+  text-align: center;
+  bottom: 2rem;
+  height: 20px;
+  padding-bottom: 20px;
+  border-radius: 0px 0px 30px 30px;
+  background-color: #a182ab; 
+  filter: drop-shadow(0.5mm 1mm 0.6mm #3b027350);
+  font-variant: small-caps;
 }
 
 
