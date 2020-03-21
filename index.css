@@ -88,8 +88,15 @@ blockquote {
 }
 
 main {
-    background-image: linear-gradient(0deg, #64428c 0%, #F5E7DC 85%);
-    
+    background-image: linear-gradient(0deg, #64428c 0%, #F5E7DC 85%);  
+}
+
+h1 {
+  color: #3b0273;
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 3rem;
+  font-family: "Source Sans Pro";
 }
 .diagrams {
     display: flex;
