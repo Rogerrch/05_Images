@@ -112,7 +112,6 @@ h1 {
 }
 .matImage {
   min-width: 400px;
-    background-image: linear-gradient(0deg, #64428c 0%, #faa16f 80%);
     border-radius: 10px 50px 0px 0px;
     border: solid 3px #64428c;  
     margin-top: 30px;
@@ -126,7 +125,6 @@ figure {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-left: 50px;
     color: #64428c;
     font: 1rem "Verdana";
     font-weight: 550;
