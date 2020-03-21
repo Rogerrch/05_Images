@@ -95,7 +95,7 @@ h1 {
 
 /* Images style*/
 .levantLogo {
-  max-width: 40%;
+  max-width: 100%;
   font-size: 120%;
   filter: drop-shadow(0.5mm 1mm 0.6mm #3b0273);
   text-align: center;
@@ -109,40 +109,64 @@ h1 {
 .logoCap {
   font-size: 90%;
   padding-right: 10%;
+}
+
+figure.bedMold {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  float: right;
+  max-width: 30%;
+  padding: 0% 3%;
+}
+
+figure.bedMold img {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  border: blue;
+  border-radius: 30px 30px 0px 0px;
+  border: solid 3px #64428c; 
   
 }
+
+.bedMoldText {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-size: 120%;
+  font-weight: bold;
+  position: relative;
+  bottom: 10px;
+  height: 40px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  border-radius: 0px 0px 30px 30px;
+  background-image: linear-gradient(0deg, #faa16f80 0%, #F5E7DC 85%);
+  border: solid 3px #64428c; 
+  filter: drop-shadow(0.5mm 1mm 0.6mm #3b027350);
+}
+
 .diagrams {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
   margin: 20px 0px 20px 0px;
 }
-.example_1 {
-  max-width: 500px;
-  max-height: auto;
-  padding-bottom: 10px;
-  border-radius: 30px;
-  filter: drop-shadow(0.5mm 1mm 0.6mm #3b027350);
-}
-.example_2 {
-  max-width: 500px;
-  max-height: auto;
-  padding-bottom: 10px;
-  border-radius: 30px;
-  filter: drop-shadow(0.5mm 1mm 0.6mm #3b027350);
-}
-figure.bedMold {
-  margin: 0;
-  padding: 0;
-  float: right;
-  border: 4px solid #ff0000;
-  width: 20%;
+
+.example {
+  width: 25%;
+  max-width: 400px;
+  min-width: 300px;
+  transition: 04s;
 }
 
-figure.bedMold img {
+.example img {
   width: 100%;
-  border: blue;
+  border-radius: 30px;
+  filter: drop-shadow(0.5mm 1mm 0.6mm #3b027350);
 }
+
 
 /* End of Images style*/
 
