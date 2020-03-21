@@ -54,11 +54,12 @@ body, h1, h2, h3, h4, h5, h6, dl {
     background-color: #aa8abd;
     border-bottom: 3px solid #3b0273;
   }
+
   .levantLogo {
-    max-width: 100%;
-    min-width: 25%;
-    filter: drop-shadow(0.5mm 1mm 0.6mm #3b0273);
-  }
+      max-width: auto;
+      min-width: 110%;
+      filter: drop-shadow(0.5mm 1mm 0.6mm #3b0273);
+    }
   
   figcaption {
     font-size: 1.25rem;

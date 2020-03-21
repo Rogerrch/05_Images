@@ -9,48 +9,75 @@ Colors
 
 /* css reset */
 
-body, h1, h2, h3, h4, h5, h6 {
-    max-width: 100%;
-    padding: 0;
-    margin: 0;
-    font-family: 'Source Sans Pro';
-    background-color: #F5E7DC
+body, h1, h2, h3, h4, h5, h6, dl {
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: "Source Sans Pro";
+  color: #3b0273;
 }
-.hLink {
+
+  .hLink {
     color: blue;
-}
-header {
+  }
+  /*Header elements*/
+  
+  header {
     display: flex;
     justify-content: center;
     background-color: #aa8abd;
-    border-bottom: 3px solid #3B0273;
-}
-.levantLogo {
-    max-width: 100%;
-    min-width: 25%;
-    filter: drop-shadow(0.5mm 1mm 0.6mm #3B0273);
-}
-
-figcaption {
+    border-bottom: 3px solid #3b0273;
+  }
+    .levantLogo {
+      max-width: auto;
+      min-width: 110%;
+      filter: drop-shadow(0.5mm 1mm 0.6mm #3b0273);
+    }
+  
+  figcaption {
     font-size: 1.25rem;
     text-align: center;
     padding-right: 40px;
-    color: #3B0273; 
-    filter: drop-shadow(0.2mm .6mm 0.2mm #F5E7DC75);
-}
-h1 {
+    color: #3b0273;
+    filter: drop-shadow(0.2mm 0.6mm 0.2mm #f5e7dc75);
+  }
+  /* Nav elements */
+  #navbar {
+    height: 100%;
     display: flex;
     justify-content: center;
-    margin: 20px;
-    padding-right: 40px;
-    color: #3B0273; 
-}
-
-p {
-    margin: 20px;
-    color: #3B0273; 
-   
-}
+    background-color: #64428c;
+    font-family: "Verdana";
+  }
+  .mynav {
+    display: flex;
+    list-style-type: none;
+    font-family: "Verdana";
+  }
+  
+  .mynav a {
+    color: #f5e7dc;
+    font-weight: 500;
+    padding: 15px 40px;
+    text-decoration: none;
+  }
+  .active a {
+    background-color: #faa16f;
+    color: #3b0273;
+    font-weight: 600;
+    transition: 0.4s;
+    
+  }
+  
+  #navbar a:hover {
+    background-color: #aa8abd;
+    transition: 0.4s;
+    font-weight: 600;
+  }
+  a:hover {
+    color: #3b0273;
+    transition: color, 0.4s;
+  }
 blockquote {
     display: flex;
     justify-content: center;
@@ -59,54 +86,10 @@ blockquote {
     font-weight: 100;
     color: #3B0273; 
 }
-/* box model fix here */
-* nav { -moz-box-sizing: border-box; -webkit-box-sizing: 
-    border-box; box-sizing: border-box; }
-
-nav {
-background-color: #64428c;
-font-family: "Verdana";
-}
-
-nav ul.mynav li {
-    float: left;
-    list-style-type: none;
-    
-}
-nav ul.mynav li a {
-    display: block;
-    padding: 15px 40px;
-    color: #F5E7DC; 
-    text-decoration: none;  
-}
-
-nav ul.mynav li {
-    border-left: solid 3px #F5E7DC;
-}
-
-nav ul.mynav li:last-child {
-    border-right: solid 3px #F5E7DC;
-}
-
-/* activated state for list items */
-nav ul.mynav li.active a {
-    background-color: #FAA16F; 
-    color: #3B0273
-}
-
-/* hover state for list for list items */
-nav ul.mynav li a:hover {
-    background-color: #aa8abd;
-    color: #3B0273  
-}
-
-.keepOpen {
-    clear: both;
-}
 
 main {
     background-image: linear-gradient(0deg, #64428c 0%, #F5E7DC 85%);
-    border-top: 3px solid #64428c;   
+    
 }
 .diagrams {
     display: flex;
@@ -138,6 +121,11 @@ blockquote {
     background-color: #aa8abd;
     border-radius: 20px;
     border: solid 3px #64428c;
+}
+
+body {
+  background-image: linear-gradient(0deg, #64428c 0%, #F5E7DC 85%);
+  border-top: 3px solid #64428c;   
 }
 
 footer {

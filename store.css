@@ -9,11 +9,12 @@ Colors
 
 /* css reset */
 
-body, h1, h2, h3, h4, h5, h6 {
+body, h1, h2, h3, h4, h5, h6, dl {
   max-width: 100%;
   padding: 0;
   margin: 0;
   font-family: "Source Sans Pro";
+  color: #3b0273;
 }
 
 .hLink {
@@ -82,11 +83,8 @@ a:hover {
 /* gallay */
 
 body {
-    background-image: linear-gradient(0deg, #64428c 25%, #F5E7DC 25%);
-}
-#product {
-    background-image: linear-gradient(0deg, #64428c 0%, #F5E7DC 100%);
-    max-width: 100%;
+  background-image: linear-gradient(0deg, #64428c 0%, #F5E7DC 85%);
+  border-top: 3px solid #64428c;   
 }
 
 h2 {
@@ -109,9 +107,7 @@ h2 {
 }
 
 .matImage {
-  max-width: 500%;
-  max-height: auto;
-  min-width: 98%;
+  min-width: 400px;
     background-image: linear-gradient(0deg, #64428c 0%, #faa16f 80%);
     border-radius: 10px 50px 0px 0px;
     border: solid 3px #64428c;  
@@ -120,7 +116,6 @@ h2 {
 
 figure {
  text-align: center;
-
 }
 
 .blurb {
@@ -142,6 +137,9 @@ figure {
 a.blurb {
     text-decoration: none;
 }
+
+
+
 /* Footer Styling */
 
 footer {
